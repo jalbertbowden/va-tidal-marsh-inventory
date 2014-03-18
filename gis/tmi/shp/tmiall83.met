@@ -1,0 +1,399 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Comprehensive Coastal Inventory, VIMS, College of 
+        William and Mary
+      Publication_Date: 1974-1988
+      Title: Tidal Marsh Inventory (TMIALL83)
+      Publication_Information:
+        Publication_Place: Gloucester Point, VA
+        Publisher: Virginia Institute of Marine Science
+
+  Description:
+    Abstract:
+      The Tidal Marsh Inventory (TMI) data are the digitized record
+      of the VIMS Tidal Marsh Inventories developed by the Wetlands Research
+      Program at the Virginia Institute of Marine Science (VIMS).  Tidal
+      wetlands were inventoried as mandated by Section 62.1-13.4 of the
+      Virginia Wetlands Act of 1972.  This effort began in 1972 and
+      continued through the mid 1980's. The conversion to digital format
+      was complete in 1992. No revisions to the data have occurred since
+      the original data collection.
+
+    Purpose:
+      The TMI data can be used for monitoring changes in wetland
+      resources, identifying environmentally sensitive areas for planning
+      and landuse purposes, and to assist agencies regulating encroachment
+      into tidal wetlands.
+
+
+    Supplemental_Information:
+      Tidal wetlands data were collected through site visits to all tidal
+      marshes in Virginia using aerial photography for assistance.  The 
+      geographic boundaries of tidal marshes were digitized from 
+      stable-based mylar, USGS 7.5 minute topographic quadrangle maps
+      (scale = 1:24000).  Aerial photography was used to correct for  
+      obvious discrepancies in the boundaries observed. The community 
+      structure and composition was described through site visits
+      to all tidal marshes in the Tidewater region of Virginia. Digitized
+      marsh polygons are coded for marsh or community type, marsh number,
+      and county location. Community type is defined in accordance with
+      criteria outlined in the WETLANDS GUIDELINES published by the VMRC
+      in 1993. Marsh number refers to the catalogue number assigned to a
+      specific polygon in the corresponding hardcopy publication. The
+      Federal Information Processing System (FIPS) codes are used for
+      "county" locator.
+
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1974
+        Ending_Date: 1988
+    Currentness_Reference: Publication date of sources
+
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: none
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -77.48525413
+      East_Bounding_Coordinate: -75.24489847
+      North_Bounding_Coordinate: 38.91213452
+      South_Bounding_Coordinate: 36.5293086
+
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: Tidal Marsh Inventory
+      Theme_Keyword: TMI
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: Tidewater Virginia
+
+  Access_Constraints: none
+
+  Use_Constraints:
+    Not for use in determining jurisdictional boundaries for regulatory
+    purposes.
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Marcia Berman
+        Contact_Organization: Virginia Institute of Marine Science (VIMS)
+      Contact_Position: Director of Comphrehensive Coastal Inventory Program
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1346
+        City: Gloucester Point
+        State_or_Province: Virginia
+        Postal_Code: 23062
+        Country: USA
+      Contact_Voice_Telephone: (804) 684-7188
+      Contact_Facsimile_Telephone: (804) 684-7182
+      Contact_Electronic_Mail_Address: marcia@vims.edu
+
+  Native_Data_Set_Environment:
+    SunOS, 4.1.4, sun4c UNIX
+    ARC/INFO version 7.0.3
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Digitized boundaries and codes are plotted to scale and overlaid
+      onto original map medium to check for accuracy. Coding is checked 
+      by the supervisor or senior staff against the digitized record. 
+      A minimum of two checks have been performed for each topographic 
+      quadrangle.
+
+  Logical_Consistency_Report: Polygon topology present. All dangling arcs
+      were removed.
+
+  Completeness_Report:
+    All polygons are labeled with a FIPS code. Many marshes smaller than
+    one quarter acre (usually narrow fringing marshes) do not have a 
+    type label or a marsh number.
+
+
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Digital boundaries of the tidal marshes were plotted at
+        1:24000 scale and overlayed on USGS 7.5' mylar topographic
+        maps.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            Dept. of Wetlands Ecology, VIMS, College of William
+            and Mary
+          Publication_Date: 1974-1988
+          Title:
+            Tidal Marsh Inventories Special Report in Applied Marine
+            Science and Ocean Engineering
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: by Tidewater locality
+            Issue_Identification: by Tidewater locality
+          Publication_Information:
+            Publication_Place: Gloucester Point, VA
+            Publisher: Virginia Institute of Marine Science
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: stable-base material
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1974
+            Ending_Date: 1988
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: none
+      Source_Contribution: spatial and attribute information
+    Process_Step:
+      Process_Description:
+        Stable-based topographic maps were registered to geographic 
+        coordinates, marsh boundaries were digitzed and polygons labeled. 
+        Arcedit weed tolerance was set to 0.001, nodesnap and snapping 
+        closest were set to 10 meters. The coverages were cleaned with
+        a fuzzy tolerance of .001 inches (1 m in UTM). Accurracy was 
+        checked by overlaying a check plot onto the original base map. 
+        The completed quadrangles were then appended, the quad
+        boundaries removed, and edgematch problems resolved.
+      Process_Date: 1996
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 18628
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 43400
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 18629
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 18
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.9996
+            Longitude_of_Central_Meridian: -75 W
+            Latitude_of_Projection_Origin: 0.0
+            False_Easting: 500000
+            False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.8593174219131
+          Ordinate_Resolution: 0.8593174219131
+        Planar_Distance_Units: METERS
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS1980
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Tidal marsh
+      Entity_Type_Definition: Polygons representing a tidal marsh
+      Entity_Type_Definition_Source: Inhouse inventory and FIPS codes
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of poly/region in square coverage units
+      Attribute_Definition_Source: ArcInfo Computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99999999.999
+      Attribute_Units_of_Measure: meters
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of poly/region in coverage units
+      Attribute_Definition_Source: ArcInfo Computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99999999.999
+      Attribute_Units_of_Measure: meters
+    Attribute:
+      Attribute_Label: TMIALL83#
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ArcInfo Computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99999999
+      Attribute_Measurement_Resolution: 1
+    Attribute:
+      Attribute_Label: TMIALL83-ID
+      Attribute_Definition: User-assigned feature number
+      Attribute_Definition_Source: User-defined
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99999999
+      Attribute_Measurement_Resolution: 1
+    Attribute:
+      Attribute_Label: MFIPS
+      Attribute_Definition: FIPS code/VIMS marsh number
+      Attribute_Definition_Source: Federal Government/VIMS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Water
+          Enumerated_Domain_Value_Definition_Source:
+            Tidal Marsh Inventories Special Report in Applied Marine 
+            Science and Ocean Engineering, Virginia Institute of Marine
+            Science
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Land
+          Enumerated_Domain_Value_Definition_Source:
+            Tidal Marsh Inventories Special Report in Applied Marine 
+            Science and Ocean Engineering, Virginia Institute of Marine
+            Science
+          Enumerated_Domain_Value: xxxx
+          Enumerated_Domain_Value_Definition: marsh number
+          Enumerated_Domain_Value_Definition_Source:
+            Tidal Marsh Inventories Special Report in Applied Marine 
+            Science and Ocean Engineering, Virginia Institute of Marine
+            Science
+    Attribute:
+      Attribute_Label: FIPS
+      Attribute_Definition:
+        Federal Information Processing System (FIPS)
+        codes
+      Attribute_Definition_Source: Federal Government
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Information Processing System
+          Codeset_Source: Federal Government
+    Attribute:
+      Attribute_Label: MARSHNO
+      Attribute_Definition: VIMS marsh number
+      Attribute_Definition_Source:
+        Catalogue number of each polygon from
+        VIMS hardcopy publication
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99999999
+    Attribute:
+      Attribute_Label: TYPE
+      Attribute_Definition: Marsh or wetland community type
+      Attribute_Definition_Source: Wetlands Guidelines
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Saltmarsh Cordgrass Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Saltmeadow Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Black Needlerush Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Saltbush Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: Big Cordgrass Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: Cattail Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Arrow Arum-Pickerelweed Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Reed Grass Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Yellow Pond Lily Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Saltwort Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Freshwater Mixed Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+          Enumerated_Domain_Value: 12
+          Enumerated_Domain_Value_Definition: Brackish Water Mixed Community
+          Enumerated_Domain_Value_Definition_Source: Wetlands Guidelines
+
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Polygons (PAT) attribute table contains four items: MFIPS, FIPS, 
+      MARSHNO,  and TYPE.  The item definition is 7, 7, I for the first 
+      three items, and 2, 2, I for TYPE.  Each code is numeric identifier 
+      for a marsh, a wetland community, or the county the wetland is found 
+      within.  The MFIPS item includes the codes 1 and 2 for water and land. 
+      If there is more than one water or upland poly within a coverage, 
+      there will be multiple polygons with the same MFIPS code.  MFIPS 
+      will only be unique for those items coded as marshes. If MFIPS=1 
+      (water) then FIPS=0 and MARSHNO=1. If  MFIPS=2 (land), then FIPS=0 
+      and MARSHNO=2.  There are twelve marsh types that describe various 
+      vegetative communities.
+    Entity_and_Attribute_Detail_Citation:
+      Virginia Marine Resources Commission. 1993. WETLANDS GUIDELINES, 
+      Virginia Marine Resources Commission, Habitat Management Division, 
+      and the Virginia Institute of  Marine Science, Dept. of Wetlands 
+      Ecology, Newport News, Virginia, pp.74.
+
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Virginia Institute of Marine Science (VIMS)
+      Contact_Position: Director of Comphrehensive Coastal Inventory Program
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1346
+        City: Gloucester POint
+        State_or_Province: Virginia
+        Postal_Code: 23062
+        Country: USA
+      Contact_Voice_Telephone: (804) 684-7188
+      Contact_Facsimile_Telephone: (804) 684-7182
+      Contact_Electronic_Mail_Address: marcia@vims.edu
+  Distribution_Liability:
+    The Comprehensive Coastal Inventory Program (CCI) at VIMS performs
+    a service by distributing data generated by either CCI or public
+    agencies which offer data without restriction or charge. CCI
+    assumes no responsibility for data accuracy or precision, metadata
+    completeness or correctness for digital information generated by other
+    agencies. CCI assumes no liability for misuse of any data which may arise
+    as a result of any alteration, conversion, or combination with other
+    data sources. As well, the timeliness and scale of these products
+    must be considered when evaluating appropriate use.
+
+Metadata_Reference_Information:
+  Metadata_Date: 19971021
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Virginia Institute of Marine Science (VIMS)
+        Contact_Person: Tamia Rudnicky
+      Contact_Position: Programmer
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 1346
+        City: Gloucester Point
+        State_or_Province: Virginia
+        Postal_Code: 23062
+        Country: USA
+      Contact_Voice_Telephone: (804) 684-7181
+      Contact_Facsimile_Telephone: (804) 684-7182
+      Contact_Electronic_Mail_Address: tamia@vims.edu
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: Version of June 8, 1994
+  Metadata_Access_Constraints: none
+  Metadata_Use_Constraints: none
